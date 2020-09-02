@@ -29,6 +29,7 @@ body {
     opacity: 1;
     transition: opacity 0.5s ease;
     width: 100%;
+    background: #7400B8;
   }
 
   .navbar-hide {
@@ -44,7 +45,7 @@ body {
     height: 50px;
     width: 50px;
     margin-left: 80%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .nav-link {
     margin-top: 0.8em;
@@ -220,6 +221,7 @@ body {
     margin-top: 4%;
     margin-right: 4%;
     margin-left: 4%;
+    margin-bottom: 4%;
   }
 
   

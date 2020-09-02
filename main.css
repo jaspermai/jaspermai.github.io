@@ -4,6 +4,7 @@ body {
     background: #56c6d4;
     font-family: 'Nunito' !important;
     margin: 0%;
+    width: 100%;
   }
   
   
@@ -11,14 +12,14 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
   }
   p{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 200 !important;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 35px;
     color: white;
   }
@@ -27,6 +28,7 @@ body {
   .navbar {
     opacity: 1;
     transition: opacity 0.5s ease;
+    width: 100%;
   }
 
   .navbar-hide {
@@ -41,8 +43,8 @@ body {
   .navbar-brand img{
     height: 50px;
     width: 50px;
-    margin-left: 50%;
-    margin-top: 10%;
+    margin-left: 80%;
+    margin-top: 15%;
   }
   .nav-link {
     margin-top: 0.8em;
@@ -74,7 +76,7 @@ body {
       );
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: auto;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -91,20 +93,21 @@ body {
 
   .description p {
     margin-left: 18%;
+    font-size: 22px;
   }
   .description .btn-primary{
     margin-left: 50%;
-    margin-top: 5%;
+    margin-top: 3%;
     background-color: rgba(105, 48, 195, 0.838542);
     border-color: rgba(105, 48, 195, 0.838542);
-    margin-bottom: 5%;
+    margin-bottom: 4%;
   }
 
   
   .header-photo img{
-    margin-left: 12%;
-    width: 350px;
-    height: 350px;
+    margin-left: 15%;
+    width: 17em;
+    height: 17em;
     border:5px solid white;
     border-radius: 500px;
     -webkit-border-radius: 500px;
@@ -116,7 +119,7 @@ body {
     background: white;
     background-size: cover;
     position: relative;
-    height: 107vh;
+    /* height: 107vh; */
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -130,6 +133,7 @@ body {
 
   .current h1{
     color: #4447CD;
+    margin-right: 4%;
   }
 
   .current p{
@@ -137,6 +141,16 @@ body {
     margin-left: 12%;
     margin-right: 20%;
     color: #4447CD;
+  }
+
+  .current-description mark{
+    color: #4447CD;
+    display: inline-block;
+    background-color: rgba(228, 192, 236, 0.839);
+    line-height: 0em;
+    padding-bottom: 0.6em;
+    padding-top: revert;
+    padding-left: initial;
   }
 
   .current b{
@@ -152,6 +166,7 @@ body {
 
   .current .end-bracket{
     margin-top: 4%;
+    margin-bottom: 6%;
   }
 
   .current-photo{
@@ -159,7 +174,7 @@ body {
     background-size: contain;
     position: relative;
     height: auto;
-    width: 100%;
+    width: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -178,7 +193,7 @@ body {
       #80FFDB 100%);
     background-size: cover;
     position: relative;
-    height: 32vh;
+    /* height: 32vh; */
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

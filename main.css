@@ -65,6 +65,8 @@ body {
     font-weight: 200 !important;
   }
 
+/*--                   INDEX HOME PAGE               --*/
+
   /* -- Header --*/
   .header {
     background: linear-gradient(180deg, 
@@ -224,4 +226,30 @@ body {
     margin-bottom: 4%;
   }
 
-  
+/*--                   HOBBIES PAGE               --*/
+
+.bg-overlay {
+  background-color: #902ec923;
+  position: absolute;
+  width: 100vw;
+  height: 610px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#myVideo {
+  position: absolute; 
+  right: 0px; 
+  width: 100vw;
+}
+
+.hobbies-content {
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 27%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  padding: 20px;
+  z-index: 2;
+}

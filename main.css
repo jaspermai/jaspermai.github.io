@@ -93,10 +93,11 @@ body {
 
   .description p {
     margin-left: 18%;
+    margin-right: 5%;
     font-size: 22px;
   }
   .description .btn-primary{
-    margin-left: 50%;
+    margin-left: 42%;
     margin-top: 3%;
     background-color: rgba(105, 48, 195, 0.838542);
     border-color: rgba(105, 48, 195, 0.838542);
@@ -105,7 +106,6 @@ body {
 
   
   .header-photo img{
-    margin-left: 15%;
     width: 17em;
     height: 17em;
     border:5px solid white;
@@ -177,7 +177,7 @@ body {
     width: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    /* -o-background-size: cover; */
     background-attachment: fixed;
     background-position: 100% 70%;
   }
@@ -188,9 +188,9 @@ body {
       #4EA8DE 0%, 
       #48BFE3 20.83%, 
       #56CFE1 40.1%, 
-      #64DFDF 56.77%, 
-      #72EFDD 75.52%, 
-      #80FFDB 100%);
+      #64DFDF 56.77%); 
+      /* #72EFDD 75.52%, 
+      #80FFDB 100%); */
     background-size: cover;
     position: relative;
     /* height: 32vh; */
@@ -200,8 +200,9 @@ body {
     -o-background-size: cover;
   }
   .contact-description{
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 5%;
+    margin-bottom: 1%;
   }
   .contact-description mark{
     color: white;
@@ -212,42 +213,13 @@ body {
     padding-top: revert;
     padding-left: initial;
   }
-  .contact .indiv-apps{
-    margin-top: 6%;
+
+  .contact img{
+    width: 45px;
+    height: 45px;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
   }
-  .contact p{
-    margin-top: 2%;
-    font-size: 18px;
-  }
-  .contact .gmail img{
-    width: 60px;
-    height: 60px;
-    margin-left: 40%;
-  }
-  .contact .gmail p{
-    margin-left: 40%;
-  }
-  .contact .linkedin img{
-    width: 60px;
-    height: 60px;
-    margin-left: 20%;
-  }
-  .contact .linkedin p{
-    margin-left: 20%;
-  }
-  .contact .facebook img{
-    width: 60px;
-    height: 60px;
-    margin-right: 20%;
-  }
-  .contact .facebook p{
-    margin-right: 20%;
-  }
-  .contact .instagram img{
-    width: 60px;
-    height: 60px;
-    margin-right: 40%;
-  }
-  .contact .instagram p{
-    margin-right: 40%;
-  }
+
+  

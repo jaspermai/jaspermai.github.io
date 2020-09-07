@@ -16,8 +16,10 @@
     <title>About JMai</title>
   </head>
   <body>
-      <!-- Navigation Bar -->
-    <nav class="navbar fixed-top navbar-expand-md">
+ 
+  <div class="container-fluid">
+    <!-- Navigation Bar -->
+    <nav class="navbar sticky-top navbar-expand-md">
         <a class="navbar-brand" href="#">
           <img src="images/JMai_icon.png" alt="JMai_icon">
         </a>
@@ -41,8 +43,9 @@
           </ul>
         </div>
     </nav>
+   
     <!-- Header -->
-    <header class="page-header header container-fluid">
+    <header class="page-header header">
       <div class="header-content">
         <div class="row">
           <div class="description col-md-6">
@@ -52,7 +55,7 @@
               <button type="button" class="btn btn-primary">Get Resume</button>
             </a>
           </div>
-          <div class="header-photo col" align="center">
+          <div class="header-photo col-md-6" align="center">
             <img src="images/header_photo_circle.png" alt="Jasper Mai">
           </div>
         </div>
@@ -76,14 +79,14 @@
           <h1 class="end-bracket">}</h1>
         </div>
       </div>
-      <div class="current-photo col-md-5">
+      <div class="current-photo col-5">
       </div>
     </div>
 
     <!-- Contact -->
     <div class="contact">
       <div class="row contact-block"> <!-- header for contact-->
-          <div class="contact-description col-md-5" align="center">
+          <div class="contact-description col-5" align="center">
             <h1>I would love to <mark>get in touch! </mark></h1>
           </div>
           <div class="socials col" align="center">
@@ -102,6 +105,8 @@
           </div>
       </div>
     </div>
+
+  </div> <!-- div container-->
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

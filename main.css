@@ -4,9 +4,6 @@
   margin-right: -15px !important;
 }
 
-.container-fluid{
-}
-
 
 /* General Code */
 body {
@@ -23,7 +20,7 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
   }
   p{
@@ -112,12 +109,16 @@ body {
     margin-right: 5%;
     font-size: 22px;
   }
-  .description .btn-primary{
+  .description .btn{
     margin-left: 42%;
     margin-top: 3%;
-    background-color: rgba(105, 48, 195, 0.838542);
-    border-color: rgba(105, 48, 195, 0.838542);
+    /* border-color: white; */
+    border: 2px solid;
+    color:  white;
     margin-bottom: 4%;
+    font-family: 'Nunito';
+    font-weight: bold;
+
   }
 
   
@@ -176,8 +177,11 @@ body {
   .current .btn{
     margin-top: 4%;
     margin-left: 30%;
-    background-color: rgba(105, 48, 195, 0.838542);
-    border-color: rgba(105, 48, 195, 0.838542);
+    border: 2px solid;
+    color:  rgba(105, 48, 195, 0.838542);
+    margin-bottom: 4%;
+    font-family: 'Nunito';
+    font-weight: bold;
   }
 
   .current .end-bracket{
@@ -269,24 +273,19 @@ body {
 }
 /*-- Titles--*/
 hr {
-  margin-top: 1%;
+  margin-top: 2% !important;
   border: 2px solid rgba(0,0,0,.1) !important;
   clear:both;
   display:block;
   width: 50%;               
-  background-color:#7400B8;
+  background-color:#E1CFEF;
   height: 2px;
   z-index: 2;
 }
 
-.titles-content{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 .titles h2{
   margin-top: 1%;
-  color: #7400B8;
+  color: #E1CFEF;
   position: relative;
   text-align: center;
   width: 100%;
@@ -294,27 +293,41 @@ hr {
 }
 
 .titles{
-  background: white;
+  /* background: white; */
   position: relative;
   width: 100%;
   z-index: 2;
 }
+
 .titles-athletics hr{
-  background-color: #5E60CE !important;
+  background-color: #DCE3F6 !important;
 }
+
 .titles-athletics h2{
-  color:#5E60CE !important;
+  color:#DCE3F6 !important;
 }
+
 .titles-photography hr{
-  background-color: #56CFE1 !important;
+  background-color: #E1F5F4 !important;
 }
+
 .titles-photography h2{
-  color:#56CFE1 !important;
+  color:#E1F5F4 !important;
 }
+
+/*       Master Background      */
+.master-background{
+  background: linear-gradient(180deg, 
+  rgba(122, 41, 193, 0.8) 0%, 
+  rgba(59, 89, 194, 0.8) 51.04%, 
+  rgba(67, 192, 210, 0.8) 100%);
+}
+
+
 /*        VIDEOGRAPHY           */
 .videography{
-  background: linear-gradient(
-    180deg, #7400B8 0%, rgba(105, 48, 195, 0.8) 35.42%, rgba(94, 96, 206, 0.6) 64.06%, rgba(83, 144, 217, 0.39) 100%); 
+  /* background: linear-gradient(
+    180deg, #7400B8 0%, rgba(105, 48, 195, 0.8) 35.42%, rgba(94, 96, 206, 0.6) 64.06%, rgba(83, 144, 217, 0.39) 100%);  */
   width: 100%;
   z-index: 2;
 }
@@ -336,22 +349,50 @@ hr {
   display: block;
   text-align: center;
   width: 100%;
+  font-size: 20px;
 }
 
 .youtubevid{
   margin: auto;
-  margin-top: 15%;
+  margin-top: 8%;
   margin-bottom: 5%;
   display: block;
 }
 
 /*        ATHLETICS           */
 
+.athletics img{
+  width: 38em;
+  height: 25em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.athletics-intro{
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 3%;
+  font-size: 20px;
+}
+
+.athletics-content{
+  text-align: left;
+  margin-top: 4%;
+  margin-right: 3%;
+  font-size: 20px;
+}
+
+.athletics-content b{
+  font-weight: bold !important;
+}
 
 /*        PHOTOGRAPHY          */
 .photography{
-  background: linear-gradient(
-    180deg, rgba(86, 207, 225, 0.8) 26.56%, rgba(100, 223, 223, 0.72) 48.96%, rgba(114, 239, 221, 0.56) 70.31%, rgba(128, 255, 219, 0.32) 100%);
+  /* background: linear-gradient(
+    180deg, rgba(86, 207, 225, 0.8) 26.56%, rgba(100, 223, 223, 0.72) 48.96%, rgba(114, 239, 221, 0.56) 70.31%, rgba(128, 255, 219, 0.32) 100%); */
   width: 100%;
 }
 
@@ -363,7 +404,9 @@ hr {
   margin-bottom: 5%;
   display: block;
   text-align: center;
+  font-size: 20px;
 }
+
 .photography h2{
   margin-top: 5%;
   margin-bottom: 5%;
@@ -371,7 +414,7 @@ hr {
   margin-right: auto;
   display: block;
   text-align: center;
-  color: black;
+  color: #E1F5F4;
   font-weight: bold;
 }
 

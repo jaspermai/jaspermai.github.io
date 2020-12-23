@@ -129,6 +129,7 @@ body {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
+    box-shadow: 5px 5px 5px #802e9e;
   }
   
   /* -- Current Section --*/
@@ -203,46 +204,35 @@ body {
     background-clip: content-box !important;
   }
 
-  /* -- Contact Section--*/
+  /* -- Contact/Footer Section--*/
   .contact{
-    background: linear-gradient(180deg, 
-      #4EA8DE 0%, 
-      #48BFE3 20.83%, 
-      #56CFE1 40.1%, 
-      #64DFDF 56.77%); 
-      /* #72EFDD 75.52%, 
-      #80FFDB 100%); */
-    background-size: cover;
-    /* position: relative; */
-    /* height: 32vh; */
+    display: block;
+    background: #92D6E5;
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    padding: 50px 4% 80px 4%;
+    font: nunito;
   }
-  .contact-description{
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-bottom: 1%;
-    position: relative;
-  }
-  .contact-description mark{
+
+  .footer-container{
     color: white;
+  }
+
+  .footer-description {
     display: inline-block;
-    background-color: #6EEBDE;
-    line-height: 0em;
-    padding-bottom: 0.6em;
-    padding-top: revert;
-    padding-left: initial;
+    margin-top:1%;
+  }
+
+  .in-touch{
+    display: inline-block;
+    float: right;
   }
 
   .contact img{
-    width: 45px;
-    height: 45px;
-    margin-top: 4%;
-    margin-right: 4%;
-    margin-left: 4%;
-    margin-bottom: 4%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
   }
 
 /*--                   HOBBIES PAGE               --*/
@@ -273,7 +263,7 @@ body {
 }
 /*-- Titles--*/
 hr {
-  margin-top: 2% !important;
+  margin-top: 1% !important;
   border: 2px solid rgba(0,0,0,.1) !important;
   clear:both;
   display:block;
@@ -287,7 +277,6 @@ hr {
   margin-top: 1%;
   color: #E1CFEF;
   position: relative;
-  text-align: center;
   width: 100%;
   z-index: 2;
 }
@@ -297,6 +286,36 @@ hr {
   position: relative;
   width: 100%;
   z-index: 2;
+}
+
+.line1v1{
+  width: 25%;
+  margin-right: 5%;
+  margin-top: 3% !important;
+}
+
+.line2v1{
+  margin-right: 5%;
+  width: 40%;
+}
+
+.line1v2{
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 3% !important;
+}
+
+.line2v2{
+  margin-left: 5%;
+  width: 40%;
+}
+
+.titlev1{
+  margin-right: 8%;
+}
+
+.titlev2{
+  margin-left: 8%;
 }
 
 .titles-athletics hr{
@@ -342,11 +361,14 @@ hr {
   display: block;
 }
 
+.videography img:hover{
+  opacity: 0.7;
+}
+
 .videography p{
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 5%;
-  display: block;
   text-align: center;
   width: 100%;
   font-size: 20px;
@@ -356,7 +378,7 @@ hr {
   margin: auto;
   margin-top: 8%;
   margin-bottom: 5%;
-  display: block;
+  display: inline-block;
 }
 
 /*        ATHLETICS           */
@@ -369,20 +391,23 @@ hr {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 5px 5px 5px white;
 }
 
 .athletics-intro{
   text-align: center;
   margin-top: 5%;
-  margin-right: 3%;
+  margin-right: 5%;
+  margin-left: -5%;
   font-size: 20px;
 }
 
 .athletics-content{
-  text-align: left;
+  text-align: center;
   margin-top: 4%;
-  margin-right: 3%;
+  margin-right: 5%;
   font-size: 20px;
+  margin-left: -5%;
 }
 
 .athletics-content b{
@@ -400,8 +425,8 @@ hr {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -415,7 +440,6 @@ hr {
   display: block;
   text-align: center;
   color: #E1F5F4;
-  font-weight: bold;
 }
 
 #photos {
@@ -440,6 +464,7 @@ hr {
   width: 100% !important;
   height: auto !important;
   margin-bottom: 5px;
+  box-shadow: 2px 2px 2px rgb(85, 84, 84);
 }
 
 @media (max-width: 1200px) {

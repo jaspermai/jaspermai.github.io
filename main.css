@@ -1,9 +1,6 @@
-
-.container-margin{
-  margin-left: -15px !important;
-  margin-right: -15px !important;
+.row{
+  margin: 0 !important;
 }
-
 
 /* General Code */
 body {
@@ -14,37 +11,70 @@ body {
     width: 100%;
     overflow: auto;
   }
-  
-  
-  h1{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
+
+h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+p{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200 !important;
+  font-size: 24px;
+  line-height: 35px;
+  color: white;
+}
+
+/* -- Contact/Footer Section--*/
+.contact{
+  display: block;
+  background: #92D6E5;
+  width: 100%;
+  padding: 50px 4% 80px 4%;
+  font: nunito;
+  margin: 0% !important;
+}
+
+  .contact img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    float: right;
+    margin-left: 2%;
   }
-  p{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 200 !important;
-    font-size: 24px;
-    line-height: 35px;
+
+  .footer-container{
     color: white;
   }
 
-  /*--- navigation bar ---*/
-  .navbar {
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    width: 100%;
-    background: #7400B8;
-    padding: 0.5rem !important;
+  .footer-description {
+    display: inline-block;
+    margin-top:1%;
   }
 
-  .navbar-hide {
-    pointer-events: none;
-    opacity: 0;
-  } 
+  .in-touch{
+    display: inline-block;
+    float: right;
+  }
+
+
+
+/*--- navigation bar ---*/
+.navbar {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  width: 100%;
+  background: #7400B8;
+  padding: 0.5rem !important;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+} 
   .nav-link,
   .navbar-brand {
     color: #FFF;
@@ -76,164 +106,138 @@ body {
 
 /*--                   INDEX HOME PAGE               --*/
 
-  /* -- Header --*/
-  .header {
-    background: linear-gradient(180deg, 
-    #7400B8 0%, 
-      rgba(105, 48, 195, 0.838542) 20.83%, 
-      rgba(94, 96, 206, 0.682292) 42.71%, 
-      rgba(83, 144, 217, 0.479167) 60.94%, 
-      rgba(78, 168, 222, 0.39038) 79.69%, 
-      rgba(72, 191, 227, 0.39038) 98.44%
-      );
-    background-size: cover;
-    /* position: relative; */
-    height: auto;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-clip: border-box !important;
-  }
-  .header-content{
-    position: absolute;
-    margin-top: 13%;
-  }
-  .description h1 {
-    line-height: 60px;
-    margin-left: 18%;
-  }
+/* -- Header --*/
+.body-index {
+  background: linear-gradient(180deg, 
+  #7400B8 0%, 
+    rgba(105, 48, 195, 0.838542) 20.83%, 
+    rgba(94, 96, 206, 0.682292) 42.71%, 
+    rgba(83, 144, 217, 0.479167) 60.94%, 
+    rgba(78, 168, 222, 0.39038) 79.69%, 
+    rgba(72, 191, 227, 0.39038) 98.44%
+    ); 
+  background-size: cover;
+  /* position: relative; */
+  height: auto;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-clip: border-box !important;
+}
+.header-content{
+  position: absolute;
+  margin-top: 13%;
+}
 
-  .description p {
-    margin-left: 18%;
-    margin-right: 5%;
-    font-size: 22px;
-  }
-  .description .btn{
-    margin-left: 42%;
-    margin-top: 3%;
-    /* border-color: white; */
-    border: 2px solid;
-    color:  white;
-    margin-bottom: 4%;
-    font-family: 'Nunito';
-    font-weight: bold;
+.description h1 {
+  line-height: 60px;
+  padding-left: 18%;
+}
 
-  }
+.description p {
+  padding-left: 18%;
+  padding-right: 5%;
+  font-size: 22px;
+}
+.description .btn{
+  margin-left: 42%;
+  margin-top: 3%;
+  /* border-color: white; */
+  border: 2px solid;
+  color:  white;
+  margin-bottom: 4%;
+  font-family: 'Nunito';
+  font-weight: bold;
 
-  
-  .header-photo img{
-    width: 17em;
-    height: 17em;
-    border:5px solid white;
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    box-shadow: 5px 5px 5px #802e9e;
-  }
-  
-  /* -- Current Section --*/
-  .current-block{
-    background: white;
-    background-size: cover;
-    /* position: relative; */
-    /* height: 107vh; */
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
+}
 
-  .current-description{
-    margin-top: 8%;
-    margin-left: 8%;
-  }
+.header-photo img{
+  width: 17em;
+  height: 17em;
+  border:5px solid white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  box-shadow: 5px 5px 5px #802e9e;
+  padding: 0% !important;
+  margin: 0% !important;
+}
 
-  .current h1{
-    color: #4447CD;
-    margin-right: 4%;
-  }
+/* -- Current Section --*/
+.current-block{
+  background: white;
+  background-size: cover;
+  /* position: relative; */
+  /* height: 107vh; */
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
-  .current p{
-    margin-top: 8%;
-    margin-left: 12%;
-    margin-right: 20%;
-    color: #4447CD;
-  }
+.current-description{
+  margin-top: 8%;
+  margin-left: 8%;
+}
 
-  .current-description mark{
-    color: #4447CD;
-    display: inline-block;
-    background-color: rgba(228, 192, 236, 0.839);
-    line-height: 0em;
-    padding-bottom: 0.6em;
-    padding-top: revert;
-    padding-left: initial;
-  }
+.current h1{
+  color: #4447CD;
+  margin-right: 4%;
+}
 
-  .current b{
-    font-weight: bold;
-  }
+.current p{
+  margin-top: 8%;
+  margin-left: 12%;
+  margin-right: 20%;
+  color: #4447CD;
+}
 
-  .current .btn{
-    margin-top: 4%;
-    margin-left: 30%;
-    border: 2px solid;
-    color:  rgba(105, 48, 195, 0.838542);
-    margin-bottom: 4%;
-    font-family: 'Nunito';
-    font-weight: bold;
-  }
+.current-description mark{
+  color: #4447CD;
+  display: inline-block;
+  background-color: rgba(228, 192, 236, 0.839);
+  line-height: 0em;
+  padding-bottom: 0.6em;
+  padding-top: revert;
+  padding-left: initial;
+}
 
-  .current .end-bracket{
-    margin-top: 4%;
-    margin-bottom: 6%;
-  }
+.current b{
+  font-weight: bold;
+}
 
-  .current-photo{
-    background-image: url("images/toronto_cropped.jpg");
-    background-size: contain;
-    /* position: relative; */
-    height: auto;
-    width: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
-    background-position: 100% 70%;
-    background-clip: content-box !important;
-  }
+.current .btn{
+  margin-top: 4%;
+  margin-left: 30%;
+  border: 2px solid;
+  color:  rgba(105, 48, 195, 0.838542);
+  margin-bottom: 4%;
+  font-family: 'Nunito';
+  font-weight: bold;
+}
 
-  /* -- Contact/Footer Section--*/
-  .contact{
-    display: block;
-    background: #92D6E5;
-    width: 100%;
-    padding: 50px 4% 80px 4%;
-    font: nunito;
-  }
+.current .end-bracket{
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
 
-  .footer-container{
-    color: white;
-  }
+.current-photo{
+  background-image: url("images/toronto_cropped.jpg");
+  background-size: contain;
+  /* position: relative; */
+  height: auto;
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 70%;
+  background-clip: content-box !important;
+  padding: 0% !important;
+  margin: 0% !important;
+}
 
-  .footer-description {
-    display: inline-block;
-    margin-top:1%;
-  }
-
-  .in-touch{
-    display: inline-block;
-    float: right;
-  }
-
-  .contact img{
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    float: right;
-    margin-left: 2%;
-  }
 
 /*--                   HOBBIES PAGE               --*/
 
@@ -241,7 +245,7 @@ body {
 
 #myVideo {
   right: 0px; 
-  width: 100vw;
+  width: 100%;
 }
 
 .hobbies-content {
@@ -268,14 +272,14 @@ hr {
   clear:both;
   display:block;
   width: 50%;               
-  background-color:#E1CFEF;
+  background-color:white;
   height: 2px;
   z-index: 2;
 }
 
 .titles h2{
   margin-top: 1%;
-  color: #E1CFEF;
+  color: white;
   position: relative;
   width: 100%;
   z-index: 2;
@@ -318,24 +322,9 @@ hr {
   margin-left: 8%;
 }
 
-.titles-athletics hr{
-  background-color: #DCE3F6 !important;
-}
-
-.titles-athletics h2{
-  color:#DCE3F6 !important;
-}
-
-.titles-photography hr{
-  background-color: #E1F5F4 !important;
-}
-
-.titles-photography h2{
-  color:#E1F5F4 !important;
-}
 
 /*       Master Background      */
-.master-background{
+body{
   background: linear-gradient(180deg, 
   rgba(122, 41, 193, 0.8) 0%, 
   rgba(59, 89, 194, 0.8) 51.04%, 

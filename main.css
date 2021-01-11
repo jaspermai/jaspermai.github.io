@@ -509,7 +509,7 @@ hr {
 /*            Featured Tech Projects         */
 
 /* Link photos */
-.link-image {
+.link-image-right {
   width: 35px;
   height: 35px;
   display: inline-block;
@@ -517,7 +517,15 @@ hr {
   float: right;
 }
 
-.link-image:hover {
+.link-image-left {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 2%;
+  float: left;
+}
+
+.link-image-right:hover, .link-image-left:hover {
   opacity: 0.7;
 }
 
